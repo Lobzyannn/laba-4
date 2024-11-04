@@ -1,0 +1,1 @@
+﻿Get-childitem C:\Windows | Where-Object Length -gt 10000 | Sort-Object Length |Select-Object Name, Length | Convertto-html | tee num6rslts.html
